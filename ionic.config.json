@@ -1,0 +1,7 @@
+{
+  "name": "handwashr",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
