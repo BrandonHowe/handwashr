@@ -1,0 +1,19 @@
+ion-item {
+    vertical-align: middle;
+    display: flex;
+    text-align: center;
+    //--background: linear-gradient(var(--ion-color-primary-shade) 50%, var(--ion-color-primary) 50%);
+}
+
+.washDescImportant {
+    font-size: 15vw;
+    font-weight: bold;
+}
+
+.washDesc {
+    font-size: 5vw;
+}
+
+.washProgress {
+    height: 10px;
+}

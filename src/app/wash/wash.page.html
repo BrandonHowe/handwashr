@@ -1,0 +1,11 @@
+<ion-content [fullscreen]="true" color="primary">
+    <ion-item
+        class="leitem ion-justify-content-center ion-align-items-center"
+        color="primary"
+        [ngStyle]="{'height': innerHeight() + 'px'}"
+    >
+        <ion-label mode="ios" position="stacked" class="ion-padding washDescImportant ion-text-center" [textContent]="currentWash"></ion-label>
+        <ion-label mode="ios" position="stacked" class="ion-text-wrap ion-padding washDesc ion-text-center" [textContent]="currentWashDesc"></ion-label>
+        <ion-progress-bar class="washProgress" color="secondary" [value]="currentProgress"></ion-progress-bar>
+    </ion-item>
+</ion-content>

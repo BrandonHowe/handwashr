@@ -1,8 +1,8 @@
 {
   "name": "handwashr",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Imperial Water",
+  "homepage": "https://handwashr.firebaseapp.com/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,6 +11,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "resolutions": {
+    "@babel/preset-env": "^7.8.7"
+  },
   "private": true,
   "dependencies": {
     "@angular/common": "~8.2.14",
@@ -18,7 +21,9 @@
     "@angular/forms": "~8.2.14",
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
+    "@angular/pwa": "^0.901.0",
     "@angular/router": "~8.2.14",
+    "@angular/service-worker": "^8.2.14",
     "@capacitor/core": "1.5.2",
     "@ionic-native/core": "^5.0.0",
     "@ionic-native/splash-screen": "^5.0.0",
@@ -48,6 +53,7 @@
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
+    "npm-force-resolutions": "0.0.3",
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
